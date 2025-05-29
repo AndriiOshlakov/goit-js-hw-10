@@ -19,14 +19,19 @@
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  padding: 32px;
 }
 
 main {
   flex-grow: 1;
 }
+
+/* 
 main:has(.back-link) {
   text-align: center;
-}
+} */

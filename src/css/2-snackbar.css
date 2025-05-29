@@ -23,7 +23,7 @@ fieldset {
     height: 50px;
 }
 
-button {
+form>button {
     display: block;
     width: 234px;
     padding: 0;
